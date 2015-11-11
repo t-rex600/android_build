@@ -47,7 +47,7 @@ custom_local_manifest = ".repo/local_manifests/roomservice.xml"
 custom_default_revision = "mm6.0"
 custom_dependencies = "liquid.dependencies"
 default_remote = "gh"
-org_display = "LiquidSmooth-Devices"  # needed for displaying
+org_display = "TREX-ROM"  # needed for displaying
 org_manifest = org_display # leave empty if org is provided in manifest
 
 github_auth = None
