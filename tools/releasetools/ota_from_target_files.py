@@ -620,11 +620,6 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 
   system_progress = 0.75
 
-  if OPTIONS.wipe_user_data:
-    system_progress -= 0.1
-  if HasVendorPartition(input_zip):
-    system_progress -= 0.1
-    
   script.Print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
   script.Print("      _     _ _   _ _   _  _  _ _   _ _       ")
   script.Print("     | |   |_ _| / _ \ | || ||_ _| |   \      ")
@@ -634,7 +629,12 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   script.Print("       **** LiquidDark-MarshMallow ****       ")
   script.Print("        **** Thanks  LiquidSmooth ****        ")
   script.Print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
-  script.Print(" ") 
+  script.Print(" ")
+
+  if OPTIONS.wipe_user_data:
+    system_progress -= 0.1
+  if HasVendorPartition(input_zip):
+    system_progress -= 0.1
 
   script.AppendExtra("if is_mounted(\"/data\") then")
   script.ValidateSignatures("data")
