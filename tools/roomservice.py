@@ -44,7 +44,7 @@ DEBUG = False
 default_manifest = ".repo/manifest.xml"
 
 custom_local_manifest = ".repo/local_manifests/roomservice.xml"
-custom_default_revision = "mm6.0"
+custom_default_revision = "mm"
 custom_dependencies = "liquid.dependencies"
 default_remote = "gh"
 org_display = "TREX-ROM"  # needed for displaying
