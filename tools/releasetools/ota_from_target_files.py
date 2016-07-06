@@ -630,13 +630,14 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   system_progress = 0.75
 
   script.Print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
-  script.Print("      _     _ _   _ _   _  _  _ _   _ _       ")
-  script.Print("     | |   |_ _| / _ \ | || ||_ _| |   \      ")
-  script.Print("     | |__  | | | (_) || || | | |  | |) |     ")
-  script.Print("     |____||___| \__\_\ \_,_||___| |___/      ")	  	
+  script.Print("      _     _ _   _ _   _  _  _ _ _ _         ")
+  script.Print("     | |   |_ _| / _ \ | || ||_ _||   \       ")
+  script.Print("     | |__  | | | (_) || || | | | | |) |      ")
+  script.Print("     |____||___| \__\_\ \_,_||___||___/       ")	  	
   script.Print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
   script.Print("       **** LiquidDark-MarshMallow ****       ")
   script.Print("        **** Thanks  LiquidSmooth ****        ")
+  script.Print("         **** Thanks TeamHorizon ****         ")  
   script.Print("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
   script.Print(" ")
 
