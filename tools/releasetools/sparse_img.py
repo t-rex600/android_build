@@ -242,7 +242,7 @@ class SparseImage(object):
           nonzero_blocks.append(b)
           nonzero_blocks.append(b+1)
 
-    if len(nonzero_blocks) >= MAX_BLOCKS_PER_GROUP:
+          if len(nonzero_blocks) >= MAX_BLOCKS_PER_GROUP:
             nonzero_groups.append(nonzero_blocks)
             # Clear the list.
             nonzero_blocks = []
@@ -251,7 +251,7 @@ class SparseImage(object):
       nonzero_groups.append(nonzero_blocks)
       nonzero_blocks = []
 
-    assert zero_blocks or nonzero_groups or clobbered_blockss
+    assert zero_blocks or nonzero_groups or clobbered_blocks
 
     if zero_blocks:
       out["__ZERO"] = rangelib.RangeSet(data=zero_blocks)
